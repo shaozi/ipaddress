@@ -1,0 +1,27 @@
+{
+  "name": "ipaddress",
+  "version": "1.0.0",
+  "description": "An ipv4 address class that can validate an IPv4 address, get subnetmask, prefix length, network, cidr, broadcast, incr, desc an ip address",
+  "main": "index.js",
+  "types": "lib/index.d.ts",
+  "files": ["lib/**/*"],
+  "scripts": {
+    "test": "jest --config jestconfig.json",
+    "build": "tsc",
+    "prepare" : "npm run build",
+    "prepublishOnly" : "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": ["ipv4", "address"],
+  "author": "Jingshao Chen",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^24.0.18",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.6.3"
+  }
+}
