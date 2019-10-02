@@ -1,5 +1,5 @@
 {
-  "name": "ipaddress",
+  "name": "@shaozi/ipaddress",
   "version": "1.0.0",
   "description": "An ipv4 address class that can validate an IPv4 address, get subnetmask, prefix length, network, cidr, broadcast, incr, desc an ip address",
   "main": "index.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/shaozi/ipaddress.git"
   },
   "keywords": ["ipv4", "address"],
   "author": "Jingshao Chen",
